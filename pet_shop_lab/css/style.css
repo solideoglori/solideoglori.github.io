@@ -1,0 +1,31 @@
+body {
+  font-family: "helvetica", sans-serif;
+  background-color: #ff8080
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li{
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li:hover {
+  background-color: Orange;
+  opacity: .5;
+}
